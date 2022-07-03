@@ -1,3 +1,110 @@
-h1{
-    color: green;
+body {
+  background-color: #f4f4f4;
+  color: 555555px;
+
+  font: normal 26px Arial, Helvetica, sans-serif;
+
+  line-height: 2em;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.box-1 {
+  background-color: rgb(20, 1, 87);
+  border: 5px red solid;
+  padding: 2em;
+}
+.box-1 h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-style: oblique;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 0.5em;
+}
+.box-2 {
+  margin: 2em;
+  border: green solid;
+  padding: 2em;
+  background-color: indigo;
+}
+.categories {
+  border: 1px #ccc solid;
+  padding: 16px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.categories h2 {
+  text-align: center;
+  color: black;
+}
+
+.categories ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+  font-size: 30px;
+  text-align: center;
+}
+.categories li {
+  padding-bottom: 4px;
+  padding-left: 8px;
+}
+
+.my-form {
+  padding: 20px;
+}
+.my-form .form-group {
+  padding-bottom: 0.2px;
+}
+.my-form label {
+  display: block;
+}
+.my-form input {
+  padding: 8px;
+  width: 100%;
+}
+.my-form button{font-size: 15px; size: 30px 15px; color: whitesmoke;background-color:black;padding: 10px;border-color: whitesmoke}
+button:hover{color: red;}
+
+.block{
+    float: left;
+    width: 33.3%;
+    line-height: 1.5em;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+   box-sizing: border-box;
+   margin-bottom: 100px;
+    
+}
+
+#main-block{
+    border: 5px white solid;
+    padding: 10px;
+    margin-top: 15px;
+    width: 60%;
+    float: left;
+}
+
+#sidebar{
+    border: 10px;
+    margin-top:30px;
+    padding: 20px;
+    border: 59px ;
+    width:40%;
+    float: right;
+    
+
+
 }
