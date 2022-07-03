@@ -75,36 +75,41 @@ a:hover {
   padding: 8px;
   width: 100%;
 }
-.my-form button{font-size: 15px; size: 30px 15px; color: whitesmoke;background-color:black;padding: 10px;border-color: whitesmoke}
-button:hover{color: red;}
-
-.block{
-    float: left;
-    width: 33.3%;
-    line-height: 1.5em;
-    border: 2px solid whitesmoke;
-    padding: 10px;
-   box-sizing: border-box;
-   margin-bottom: 100px;
-    
+.my-form button {
+  font-size: 15px;
+  size: 30px 15px;
+  color: whitesmoke;
+  background-color: black;
+  padding: 10px;
+  border-color: whitesmoke;
+}
+button:hover {
+  color: red;
 }
 
-#main-block{
-    border: 5px white solid;
-    padding: 10px;
-    margin-top: 15px;
-    width: 60%;
-    float: left;
+.block {
+  float: left;
+  width: 33.3%;
+  line-height: 1.5em;
+  border: 2px solid whitesmoke;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
 }
 
-#sidebar{
-    border: 10px;
-    margin-top:30px;
-    padding: 20px;
-    border: 59px ;
-    width:40%;
-    float: right;
-    
+#main-block {
+  border: 5px white solid;
+  padding: 10px;
+  margin-top: 15px;
+  width: 60%;
+  float: left;
+}
 
-
+#sidebar {
+  border: 10px;
+  margin-top: 30px;
+  padding: 20px;
+  border: 59px;
+  width: 40%;
+  float: right;
 }
